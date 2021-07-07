@@ -8,7 +8,7 @@ console.log(Drop)
 
 function ItemDrop(ItemJson, Level) {
     let totalWeight = 0;
-    let pick = "";
+    let pick = [];
     let Length = 0;
 
     //トータルの重みを計算する
@@ -27,7 +27,9 @@ function ItemDrop(ItemJson, Level) {
                 //出現レベルを確認
                 if(Level === ItemJson.Item[i].level){
                     // 抽選対象決定
-                    pick = ItemJson.Item[i].name;
+                    pick[0] = ItemJson.Item[i].name;
+                    pick[1] = ItemJson.Item[i].money;
+                    pick[2] = ItemJson.Item[i].page;
                     break;
                 }else {
                     continue;

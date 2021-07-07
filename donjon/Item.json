@@ -4,25 +4,33 @@
             "id":1,
             "name":"ブロードソード",
             "ratio":100,
-            "level":1
+            "level":1,
+            "page":"P50",
+            "money":10000
         },
         {
             "id":2,
             "name":"カタナ",
             "ratio":150,
-            "level":1
+            "level":1,
+            "page":"P10",
+            "money":500
         },
         {
             "id":3,
             "name":"ムチ",
             "ratio":20,
-            "level":2
+            "level":2,
+            "page":"P20",
+            "money":600
         },
         {
             "id":4,
             "name":"キムチ",
             "ratio":20,
-            "level":1
+            "level":1,
+            "page":"P30",
+            "money":700
         }
     ]
 }
