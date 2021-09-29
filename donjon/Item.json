@@ -1,36 +1,4628 @@
 {
-    "Item":[ 
-        {
-            "id":1,
-            "name":"ブロードソード",
-            "ratio":100,
-            "level":1,
-            "page":"P50",
-            "money":10000
-        },
-        {
-            "id":2,
-            "name":"カタナ",
-            "ratio":150,
-            "level":1,
-            "page":"P10",
-            "money":500
-        },
-        {
-            "id":3,
-            "name":"ムチ",
-            "ratio":20,
-            "level":2,
-            "page":"P20",
-            "money":600
-        },
-        {
-            "id":4,
-            "name":"キムチ",
-            "ratio":20,
-            "level":1,
-            "page":"P30",
-            "money":700
-        }
-    ]
+	"Item": [
+		{
+			"id": 1,
+			"name": "アイアンナックル",
+			"ratio": 99,
+			"level": 1,
+			"page": "P21",
+			"money": 10
+		},
+		{
+			"id": 2,
+			"name": "バグナウ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P21",
+			"money": 50
+		},
+		{
+			"id": 3,
+			"name": "ナックルガード",
+			"ratio": 98,
+			"level": 1,
+			"page": "P21",
+			"money": 70
+		},
+		{
+			"id": 4,
+			"name": "アイアンクロー",
+			"ratio": 98,
+			"level": 1,
+			"page": "P21",
+			"money": 100
+		},
+		{
+			"id": 5,
+			"name": "フック",
+			"ratio": 97,
+			"level": 1,
+			"page": "P21",
+			"money": 200
+		},
+		{
+			"id": 6,
+			"name": "ミスリルバグナウ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P21",
+			"money": 400
+		},
+		{
+			"id": 7,
+			"name": "ミスリルナックル",
+			"ratio": 95,
+			"level": 1,
+			"page": "P21",
+			"money": 400
+		},
+		{
+			"id": 8,
+			"name": "ミスリルクロー",
+			"ratio": 94,
+			"level": 1,
+			"page": "P21",
+			"money": 780
+		},
+		{
+			"id": 9,
+			"name": "パタ",
+			"ratio": 93,
+			"level": 1,
+			"page": "P21",
+			"money": 1100
+		},
+		{
+			"id": 10,
+			"name": "ガイストブレード",
+			"ratio": 92,
+			"level": 1,
+			"page": "P21",
+			"money": 2100
+		},
+		{
+			"id": 11,
+			"name": "ゴーレムパンチ",
+			"ratio": 91,
+			"level": 1,
+			"page": "P21",
+			"money": 2500
+		},
+		{
+			"id": 12,
+			"name": "ビーストジョーズ",
+			"ratio": 90,
+			"level": 1,
+			"page": "P21",
+			"money": 3900
+		},
+		{
+			"id": 13,
+			"name": "ダイアナックル",
+			"ratio": 90,
+			"level": 1,
+			"page": "P21",
+			"money": 4200
+		},
+		{
+			"id": 14,
+			"name": "ファイトグローブ",
+			"ratio": 89,
+			"level": 1,
+			"page": "P21",
+			"money": 4900
+		},
+		{
+			"id": 15,
+			"name": "メイスナックル",
+			"ratio": 87,
+			"level": 1,
+			"page": "P21",
+			"money": 7600
+		},
+		{
+			"id": 16,
+			"name": "凶爪の籠手",
+			"ratio": 85,
+			"level": 1,
+			"page": "P21",
+			"money": 10800
+		},
+		{
+			"id": 17,
+			"name": "鉄刃手",
+			"ratio": 83,
+			"level": 1,
+			"page": "P21",
+			"money": 18700
+		},
+		{
+			"id": 18,
+			"name": "エレクトリッガー",
+			"ratio": 80,
+			"level": 1,
+			"page": "P21",
+			"money": 26000
+		},
+		{
+			"id": 19,
+			"name": "ハーフアンドハーフ",
+			"ratio": 79,
+			"level": 1,
+			"page": "P21",
+			"money": 31000
+		},
+		{
+			"id": 20,
+			"name": "スパイラルコーン",
+			"ratio": 77,
+			"level": 1,
+			"page": "P21",
+			"money": 39000
+		},
+		{
+			"id": 21,
+			"name": "竜翼の手甲",
+			"ratio": 75,
+			"level": 1,
+			"page": "P21",
+			"money": 45000
+		},
+		{
+			"id": 22,
+			"name": "スカーレットクラブ",
+			"ratio": 72,
+			"level": 1,
+			"page": "P21",
+			"money": 67000
+		},
+		{
+			"id": 23,
+			"name": "クリスタルクロー",
+			"ratio": 70,
+			"level": 1,
+			"page": "P21",
+			"money": 88000
+		},
+		{
+			"id": 24,
+			"name": "ホーリースタンプ",
+			"ratio": 68,
+			"level": 1,
+			"page": "P21",
+			"money": 92000
+		},
+		{
+			"id": 25,
+			"name": "スパイクマナクレス",
+			"ratio": 67,
+			"level": 1,
+			"page": "P21",
+			"money": 95000
+		},
+		{
+			"id": 26,
+			"name": "ブラックテン",
+			"ratio": 64,
+			"level": 1,
+			"page": "P21",
+			"money": 117000
+		},
+		{
+			"id": 27,
+			"name": "ファイアウィング",
+			"ratio": 61,
+			"level": 1,
+			"page": "P21",
+			"money": 170000
+		},
+		{
+			"id": 28,
+			"name": "ナイフ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P23",
+			"money": 10
+		},
+		{
+			"id": 29,
+			"name": "ダガー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P23",
+			"money": 20
+		},
+		{
+			"id": 30,
+			"name": "クナイ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P23",
+			"money": 50
+		},
+		{
+			"id": 31,
+			"name": "バゼラード",
+			"ratio": 98,
+			"level": 1,
+			"page": "P23",
+			"money": 50
+		},
+		{
+			"id": 32,
+			"name": "カタール",
+			"ratio": 98,
+			"level": 1,
+			"page": "P23",
+			"money": 150
+		},
+		{
+			"id": 33,
+			"name": "ファインダガー",
+			"ratio": 97,
+			"level": 1,
+			"page": "P23",
+			"money": 250
+		},
+		{
+			"id": 34,
+			"name": "ダーク",
+			"ratio": 96,
+			"level": 1,
+			"page": "P23",
+			"money": 300
+		},
+		{
+			"id": 35,
+			"name": "シュリケン",
+			"ratio": 96,
+			"level": 1,
+			"page": "P23",
+			"money": 300
+		},
+		{
+			"id": 36,
+			"name": "ソードブレイカー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P23",
+			"money": 800
+		},
+		{
+			"id": 37,
+			"name": "スティレット",
+			"ratio": 94,
+			"level": 1,
+			"page": "P23",
+			"money": 350
+		},
+		{
+			"id": 38,
+			"name": "ミスリルダガー",
+			"ratio": 93,
+			"level": 1,
+			"page": "P23",
+			"money": 1400
+		},
+		{
+			"id": 39,
+			"name": "ククリ",
+			"ratio": 92,
+			"level": 1,
+			"page": "P23",
+			"money": 2200
+		},
+		{
+			"id": 40,
+			"name": "キドニーダガー",
+			"ratio": 91,
+			"level": 1,
+			"page": "P23",
+			"money": 3000
+		},
+		{
+			"id": 41,
+			"name": "ウェポンブレイカー",
+			"ratio": 90,
+			"level": 1,
+			"page": "P23",
+			"money": 4800
+		},
+		{
+			"id": 42,
+			"name": "ミスリルククリ",
+			"ratio": 88,
+			"level": 1,
+			"page": "P23",
+			"money": 5200
+		},
+		{
+			"id": 43,
+			"name": "サーチャーナイフ",
+			"ratio": 87,
+			"level": 1,
+			"page": "P23",
+			"money": 8800
+		},
+		{
+			"id": 44,
+			"name": "マドゥ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P23",
+			"money": 10800
+		},
+		{
+			"id": 45,
+			"name": "レザーカード",
+			"ratio": 83,
+			"level": 1,
+			"page": "P23",
+			"money": 17000
+		},
+		{
+			"id": 46,
+			"name": "マンハンター",
+			"ratio": 80,
+			"level": 1,
+			"page": "P23",
+			"money": 19000
+		},
+		{
+			"id": 47,
+			"name": "ミラーエッジ",
+			"ratio": 78,
+			"level": 1,
+			"page": "P23",
+			"money": 24000
+		},
+		{
+			"id": 48,
+			"name": "竜牙の短刀",
+			"ratio": 75,
+			"level": 1,
+			"page": "P23",
+			"money": 37000
+		},
+		{
+			"id": 49,
+			"name": "モノフィラメントブレイド",
+			"ratio": 70,
+			"level": 1,
+			"page": "P23",
+			"money": 64000
+		},
+		{
+			"id": 50,
+			"name": "リバースシザーズ",
+			"ratio": 67,
+			"level": 1,
+			"page": "P23",
+			"money": 88000
+		},
+		{
+			"id": 51,
+			"name": "イポスレプリカ",
+			"ratio": 64,
+			"level": 1,
+			"page": "P23",
+			"money": 104000
+		},
+		{
+			"id": 52,
+			"name": "ルミナストゥース",
+			"ratio": 61,
+			"level": 1,
+			"page": "P23",
+			"money": 125000
+		},
+		{
+			"id": 53,
+			"name": "ショートソード",
+			"ratio": 99,
+			"level": 1,
+			"page": "P25",
+			"money": 80
+		},
+		{
+			"id": 54,
+			"name": "忍者刀",
+			"ratio": 99,
+			"level": 1,
+			"page": "P25",
+			"money": 100
+		},
+		{
+			"id": 55,
+			"name": "ロングソード",
+			"ratio": 99,
+			"level": 1,
+			"page": "P25",
+			"money": 150
+		},
+		{
+			"id": 56,
+			"name": "バスタードソード",
+			"ratio": 99,
+			"level": 1,
+			"page": "P25",
+			"money": 260
+		},
+		{
+			"id": 57,
+			"name": "レイピア",
+			"ratio": 98,
+			"level": 1,
+			"page": "P25",
+			"money": 120
+		},
+		{
+			"id": 58,
+			"name": "ブロードソード",
+			"ratio": 98,
+			"level": 1,
+			"page": "P25",
+			"money": 240
+		},
+		{
+			"id": 59,
+			"name": "ふぃらんぎ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P25",
+			"money": 300
+		},
+		{
+			"id": 60,
+			"name": "フラムベルク",
+			"ratio": 96,
+			"level": 1,
+			"page": "P25",
+			"money": 400
+		},
+		{
+			"id": 61,
+			"name": "ファインソード",
+			"ratio": 96,
+			"level": 1,
+			"page": "P25",
+			"money": 500
+		},
+		{
+			"id": 62,
+			"name": "ファインバスタードソード",
+			"ratio": 96,
+			"level": 1,
+			"page": "P25",
+			"money": 620
+		},
+		{
+			"id": 63,
+			"name": "シミター",
+			"ratio": 95,
+			"level": 1,
+			"page": "P25",
+			"money": 480
+		},
+		{
+			"id": 64,
+			"name": "ファルシオン",
+			"ratio": 95,
+			"level": 1,
+			"page": "P25",
+			"money": 680
+		},
+		{
+			"id": 65,
+			"name": "ヘビーバスタードソード",
+			"ratio": 94,
+			"level": 1,
+			"page": "P25",
+			"money": 800
+		},
+		{
+			"id": 66,
+			"name": "カットラス",
+			"ratio": 93,
+			"level": 1,
+			"page": "P25",
+			"money": 880
+		},
+		{
+			"id": 67,
+			"name": "ミスリルソード",
+			"ratio": 93,
+			"level": 1,
+			"page": "P25",
+			"money": 980
+		},
+		{
+			"id": 68,
+			"name": "グラディウス",
+			"ratio": 92,
+			"level": 1,
+			"page": "P25",
+			"money": 1100
+		},
+		{
+			"id": 69,
+			"name": "ミスリルファルシオン",
+			"ratio": 91,
+			"level": 1,
+			"page": "P25",
+			"money": 1300
+		},
+		{
+			"id": 70,
+			"name": "ミスリルシミター",
+			"ratio": 90,
+			"level": 1,
+			"page": "P25",
+			"money": 3800
+		},
+		{
+			"id": 71,
+			"name": "ミスリルバスタードソード",
+			"ratio": 90,
+			"level": 1,
+			"page": "P25",
+			"money": 5800
+		},
+		{
+			"id": 72,
+			"name": "黄金剣",
+			"ratio": 88,
+			"level": 1,
+			"page": "P25",
+			"money": 4700
+		},
+		{
+			"id": 73,
+			"name": "ナイトソード",
+			"ratio": 87,
+			"level": 1,
+			"page": "P25",
+			"money": 12800
+		},
+		{
+			"id": 74,
+			"name": "ソーブレイド",
+			"ratio": 85,
+			"level": 1,
+			"page": "P25",
+			"money": 14000
+		},
+		{
+			"id": 75,
+			"name": "ボーンクラッシャー",
+			"ratio": 82,
+			"level": 1,
+			"page": "P25",
+			"money": 24000
+		},
+		{
+			"id": 76,
+			"name": "ワンオブサウザンド",
+			"ratio": 80,
+			"level": 1,
+			"page": "P25",
+			"money": 30000
+		},
+		{
+			"id": 77,
+			"name": "竜爪の剣",
+			"ratio": 75,
+			"level": 1,
+			"page": "P25",
+			"money": 58000
+		},
+		{
+			"id": 78,
+			"name": "クリスタルソード",
+			"ratio": 70,
+			"level": 1,
+			"page": "P25",
+			"money": 100000
+		},
+		{
+			"id": 79,
+			"name": "レイブンソード",
+			"ratio": 69,
+			"level": 1,
+			"page": "P25",
+			"money": 140000
+		},
+		{
+			"id": 80,
+			"name": "セエレレプリカ",
+			"ratio": 67,
+			"level": 1,
+			"page": "P25",
+			"money": 1520000
+		},
+		{
+			"id": 81,
+			"name": "ポメロスライサー",
+			"ratio": 64,
+			"level": 1,
+			"page": "P25",
+			"money": 210000
+		},
+		{
+			"id": 82,
+			"name": "ブラッククローソード",
+			"ratio": 61,
+			"level": 1,
+			"page": "P25",
+			"money": 290000
+		},
+		{
+			"id": 83,
+			"name": "ハンドアックス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P29",
+			"money": 100
+		},
+		{
+			"id": 84,
+			"name": "グレートアックス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P29",
+			"money": 160
+		},
+		{
+			"id": 85,
+			"name": "ハルバード",
+			"ratio": 99,
+			"level": 1,
+			"page": "P29",
+			"money": 220
+		},
+		{
+			"id": 86,
+			"name": "バトルアックス",
+			"ratio": 98,
+			"level": 1,
+			"page": "P29",
+			"money": 130
+		},
+		{
+			"id": 87,
+			"name": "ヴォウジェ",
+			"ratio": 98,
+			"level": 1,
+			"page": "P29",
+			"money": 330
+		},
+		{
+			"id": 88,
+			"name": "ライトアックス",
+			"ratio": 97,
+			"level": 1,
+			"page": "P29",
+			"money": 350
+		},
+		{
+			"id": 89,
+			"name": "ポールアックス",
+			"ratio": 97,
+			"level": 1,
+			"page": "P29",
+			"money": 670
+		},
+		{
+			"id": 90,
+			"name": "トマホーク",
+			"ratio": 96,
+			"level": 1,
+			"page": "P29",
+			"money": 480
+		},
+		{
+			"id": 91,
+			"name": "ヘビーハルバード",
+			"ratio": 96,
+			"level": 1,
+			"page": "P29",
+			"money": 760
+		},
+		{
+			"id": 92,
+			"name": "バルディッシュ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P29",
+			"money": 1000
+		},
+		{
+			"id": 93,
+			"name": "タンギ",
+			"ratio": 94,
+			"level": 1,
+			"page": "P29",
+			"money": 760
+		},
+		{
+			"id": 94,
+			"name": "ブージ",
+			"ratio": 93,
+			"level": 1,
+			"page": "P29",
+			"money": 2200
+		},
+		{
+			"id": 95,
+			"name": "ミスリルアックス",
+			"ratio": 92,
+			"level": 1,
+			"page": "P29",
+			"money": 1500
+		},
+		{
+			"id": 96,
+			"name": "ネヴァーフアックス",
+			"ratio": 91,
+			"level": 1,
+			"page": "P29",
+			"money": 4800
+		},
+		{
+			"id": 97,
+			"name": "タバール",
+			"ratio": 90,
+			"level": 1,
+			"page": "P29",
+			"money": 4000
+		},
+		{
+			"id": 98,
+			"name": "クレセントアックス",
+			"ratio": 90,
+			"level": 1,
+			"page": "P29",
+			"money": 6200
+		},
+		{
+			"id": 99,
+			"name": "ミスリルハルバード",
+			"ratio": 90,
+			"level": 1,
+			"page": "P29",
+			"money": 7800
+		},
+		{
+			"id": 100,
+			"name": "トロウルアックス",
+			"ratio": 85,
+			"level": 1,
+			"page": "P29",
+			"money": 9400
+		},
+		{
+			"id": 101,
+			"name": "スピリットバスター",
+			"ratio": 85,
+			"level": 1,
+			"page": "P29",
+			"money": 14000
+		},
+		{
+			"id": 102,
+			"name": "黒曜の斧",
+			"ratio": 80,
+			"level": 1,
+			"page": "P29",
+			"money": 23000
+		},
+		{
+			"id": 103,
+			"name": "勇士の斧",
+			"ratio": 80,
+			"level": 1,
+			"page": "P29",
+			"money": 30000
+		},
+		{
+			"id": 104,
+			"name": "竜鱗の斧",
+			"ratio": 75,
+			"level": 1,
+			"page": "P29",
+			"money": 49800
+		},
+		{
+			"id": 105,
+			"name": "青獅子の斧",
+			"ratio": 75,
+			"level": 1,
+			"page": "P29",
+			"money": 57700
+		},
+		{
+			"id": 106,
+			"name": "クリムゾンタバール",
+			"ratio": 70,
+			"level": 1,
+			"page": "P29",
+			"money": 98000
+		},
+		{
+			"id": 107,
+			"name": "ギガントアックス",
+			"ratio": 70,
+			"level": 1,
+			"page": "P29",
+			"money": 116000
+		},
+		{
+			"id": 108,
+			"name": "アンクーレプリカ",
+			"ratio": 68,
+			"level": 1,
+			"page": "P29",
+			"money": 135000
+		},
+		{
+			"id": 109,
+			"name": "ホイールアックス",
+			"ratio": 67,
+			"level": 1,
+			"page": "P29",
+			"money": 128000
+		},
+		{
+			"id": 110,
+			"name": "乗り手殺し",
+			"ratio": 65,
+			"level": 1,
+			"page": "P29",
+			"money": 170000
+		},
+		{
+			"id": 111,
+			"name": "アンチメルター",
+			"ratio": 64,
+			"level": 1,
+			"page": "P29",
+			"money": 159000
+		},
+		{
+			"id": 112,
+			"name": "タワーロガー",
+			"ratio": 62,
+			"level": 1,
+			"page": "P29",
+			"money": 193000
+		},
+		{
+			"id": 113,
+			"name": "ゴールドスケイル",
+			"ratio": 61,
+			"level": 1,
+			"page": "P29",
+			"money": 210000
+		},
+		{
+			"id": 114,
+			"name": "クラブ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P31",
+			"money": 20
+		},
+		{
+			"id": 115,
+			"name": "ライトメイス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P31",
+			"money": 100
+		},
+		{
+			"id": 116,
+			"name": "フレイル",
+			"ratio": 99,
+			"level": 1,
+			"page": "P31",
+			"money": 150
+		},
+		{
+			"id": 117,
+			"name": "スタッフ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P31",
+			"money": 40
+		},
+		{
+			"id": 118,
+			"name": "ヘビーメイス",
+			"ratio": 98,
+			"level": 1,
+			"page": "P31",
+			"money": 180
+		},
+		{
+			"id": 119,
+			"name": "ピック",
+			"ratio": 98,
+			"level": 1,
+			"page": "P31",
+			"money": 320
+		},
+		{
+			"id": 120,
+			"name": "ウォーハンマー",
+			"ratio": 97,
+			"level": 1,
+			"page": "P31",
+			"money": 300
+		},
+		{
+			"id": 121,
+			"name": "モーニングスター",
+			"ratio": 97,
+			"level": 1,
+			"page": "P31",
+			"money": 420
+		},
+		{
+			"id": 122,
+			"name": "ファインメイス",
+			"ratio": 96,
+			"level": 1,
+			"page": "P31",
+			"money": 480
+		},
+		{
+			"id": 123,
+			"name": "ヘビーフレイル",
+			"ratio": 95,
+			"level": 1,
+			"page": "P31",
+			"money": 500
+		},
+		{
+			"id": 124,
+			"name": "ホーリークロス",
+			"ratio": 94,
+			"level": 1,
+			"page": "P31",
+			"money": 700
+		},
+		{
+			"id": 125,
+			"name": "ウォーピック",
+			"ratio": 93,
+			"level": 1,
+			"page": "P31",
+			"money": 780
+		},
+		{
+			"id": 126,
+			"name": "ミスリルハンマー",
+			"ratio": 92,
+			"level": 1,
+			"page": "P31",
+			"money": 850
+		},
+		{
+			"id": 127,
+			"name": "ミスリルピック",
+			"ratio": 91,
+			"level": 1,
+			"page": "P31",
+			"money": 1100
+		},
+		{
+			"id": 128,
+			"name": "ダイアメイス",
+			"ratio": 90,
+			"level": 1,
+			"page": "P31",
+			"money": 200
+		},
+		{
+			"id": 129,
+			"name": "ビショップワンド",
+			"ratio": 87,
+			"level": 1,
+			"page": "P31",
+			"money": 13000
+		},
+		{
+			"id": 130,
+			"name": "ウィザードスタッフ",
+			"ratio": 87,
+			"level": 1,
+			"page": "P31",
+			"money": 18000
+		},
+		{
+			"id": 131,
+			"name": "ハーミットスタッフ",
+			"ratio": 87,
+			"level": 1,
+			"page": "P31",
+			"money": 19000
+		},
+		{
+			"id": 132,
+			"name": "ミスリルフレイル",
+			"ratio": 84,
+			"level": 1,
+			"page": "P31",
+			"money": 5600
+		},
+		{
+			"id": 133,
+			"name": "ホーリーバトン",
+			"ratio": 85,
+			"level": 1,
+			"page": "P31",
+			"money": 7800
+		},
+		{
+			"id": 134,
+			"name": "バクルス",
+			"ratio": 80,
+			"level": 1,
+			"page": "P31",
+			"money": 14000
+		},
+		{
+			"id": 135,
+			"name": "竜骨の槌",
+			"ratio": 75,
+			"level": 1,
+			"page": "P31",
+			"money": 35800
+		},
+		{
+			"id": 136,
+			"name": "大鉄塊",
+			"ratio": 70,
+			"level": 1,
+			"page": "P31",
+			"money": 51000
+		},
+		{
+			"id": 137,
+			"name": "サブナックレプリカ",
+			"ratio": 67,
+			"level": 1,
+			"page": "P31",
+			"money": 126000
+		},
+		{
+			"id": 138,
+			"name": "アースボーン",
+			"ratio": 61,
+			"level": 1,
+			"page": "P31",
+			"money": 185000
+		},
+		{
+			"id": 139,
+			"name": "ランス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P33",
+			"money": 100
+		},
+		{
+			"id": 140,
+			"name": "ショートスピア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P33",
+			"money": 110
+		},
+		{
+			"id": 141,
+			"name": "ロングスピア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P33",
+			"money": 200
+		},
+		{
+			"id": 142,
+			"name": "トライデント",
+			"ratio": 98,
+			"level": 1,
+			"page": "P33",
+			"money": 350
+		},
+		{
+			"id": 143,
+			"name": "ジャベリン",
+			"ratio": 97,
+			"level": 1,
+			"page": "P33",
+			"money": 380
+		},
+		{
+			"id": 144,
+			"name": "ヘビースピア",
+			"ratio": 97,
+			"level": 1,
+			"page": "P33",
+			"money": 520
+		},
+		{
+			"id": 145,
+			"name": "ミスリルランス",
+			"ratio": 96,
+			"level": 1,
+			"page": "P33",
+			"money": 500
+		},
+		{
+			"id": 146,
+			"name": "ランシア",
+			"ratio": 96,
+			"level": 1,
+			"page": "P33",
+			"money": 680
+		},
+		{
+			"id": 147,
+			"name": "パルチザン",
+			"ratio": 95,
+			"level": 1,
+			"page": "P33",
+			"money": 510
+		},
+		{
+			"id": 148,
+			"name": "パイク",
+			"ratio": 95,
+			"level": 1,
+			"page": "P33",
+			"money": 900
+		},
+		{
+			"id": 149,
+			"name": "ミスリルスピア",
+			"ratio": 94,
+			"level": 1,
+			"page": "P33",
+			"money": 1500
+		},
+		{
+			"id": 150,
+			"name": "ピルム",
+			"ratio": 93,
+			"level": 1,
+			"page": "P33",
+			"money": 1100
+		},
+		{
+			"id": 151,
+			"name": "ヘビーランス",
+			"ratio": 93,
+			"level": 1,
+			"page": "P33",
+			"money": 1800
+		},
+		{
+			"id": 152,
+			"name": "フットマンズパイク",
+			"ratio": 92,
+			"level": 1,
+			"page": "P33",
+			"money": 2800
+		},
+		{
+			"id": 153,
+			"name": "十字槍",
+			"ratio": 91,
+			"level": 1,
+			"page": "P33",
+			"money": 4100
+		},
+		{
+			"id": 154,
+			"name": "ミスリルジャベリン",
+			"ratio": 90,
+			"level": 1,
+			"page": "P33",
+			"money": 3200
+		},
+		{
+			"id": 155,
+			"name": "ダイアランス",
+			"ratio": 90,
+			"level": 1,
+			"page": "P33",
+			"money": 4500
+		},
+		{
+			"id": 156,
+			"name": "ミスリルランシア",
+			"ratio": 90,
+			"level": 1,
+			"page": "P33",
+			"money": 5800
+		},
+		{
+			"id": 157,
+			"name": "鉤槍",
+			"ratio": 87,
+			"level": 1,
+			"page": "P33",
+			"money": 7800
+		},
+		{
+			"id": 158,
+			"name": "アクアトライデント",
+			"ratio": 85,
+			"level": 1,
+			"page": "P33",
+			"money": 9800
+		},
+		{
+			"id": 159,
+			"name": "蛇矛",
+			"ratio": 83,
+			"level": 1,
+			"page": "P33",
+			"money": 16200
+		},
+		{
+			"id": 160,
+			"name": "ツイストスピア",
+			"ratio": 80,
+			"level": 1,
+			"page": "P33",
+			"money": 17100
+		},
+		{
+			"id": 161,
+			"name": "アンダーテイカー",
+			"ratio": 80,
+			"level": 1,
+			"page": "P33",
+			"money": 23000
+		},
+		{
+			"id": 162,
+			"name": "ピアシングスター",
+			"ratio": 77,
+			"level": 1,
+			"page": "P33",
+			"money": 24000
+		},
+		{
+			"id": 163,
+			"name": "竜尾の槍",
+			"ratio": 75,
+			"level": 1,
+			"page": "P33",
+			"money": 35000
+		},
+		{
+			"id": 164,
+			"name": "銀竜の槍",
+			"ratio": 75,
+			"level": 1,
+			"page": "P33",
+			"money": 44000
+		},
+		{
+			"id": 165,
+			"name": "クリスタルスピア",
+			"ratio": 70,
+			"level": 1,
+			"page": "P33",
+			"money": 68000
+		},
+		{
+			"id": 166,
+			"name": "クリムゾンランシア",
+			"ratio": 70,
+			"level": 1,
+			"page": "P33",
+			"money": 98000
+		},
+		{
+			"id": 167,
+			"name": "セントールランス",
+			"ratio": 67,
+			"level": 1,
+			"page": "P33",
+			"money": 89600
+		},
+		{
+			"id": 168,
+			"name": "巨人の鉄串",
+			"ratio": 67,
+			"level": 1,
+			"page": "P33",
+			"money": 123000
+		},
+		{
+			"id": 169,
+			"name": "イビルトライデント",
+			"ratio": 64,
+			"level": 1,
+			"page": "P33",
+			"money": 132000
+		},
+		{
+			"id": 170,
+			"name": "ホワイトピナクル",
+			"ratio": 64,
+			"level": 1,
+			"page": "P33",
+			"money": 181000
+		},
+		{
+			"id": 171,
+			"name": "フルカスレプリカ",
+			"ratio": 61,
+			"level": 1,
+			"page": "P33",
+			"money": 216000
+		},
+		{
+			"id": 172,
+			"name": "シルバーテイル",
+			"ratio": 61,
+			"level": 1,
+			"page": "P33",
+			"money": 320000
+		},
+		{
+			"id": 173,
+			"name": "ウィップ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P35",
+			"money": 30
+		},
+		{
+			"id": 174,
+			"name": "チェインウィップ",
+			"ratio": 98,
+			"level": 1,
+			"page": "P35",
+			"money": 80
+		},
+		{
+			"id": 175,
+			"name": "ヘビーウィップ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P35",
+			"money": 130
+		},
+		{
+			"id": 176,
+			"name": "ファインウィップ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P35",
+			"money": 390
+		},
+		{
+			"id": 177,
+			"name": "チェインダガー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P35",
+			"money": 900
+		},
+		{
+			"id": 178,
+			"name": "ワイヤーウィップ",
+			"ratio": 94,
+			"level": 1,
+			"page": "P35",
+			"money": 820
+		},
+		{
+			"id": 179,
+			"name": "チェインブレイド",
+			"ratio": 93,
+			"level": 1,
+			"page": "P35",
+			"money": 1200
+		},
+		{
+			"id": 180,
+			"name": "ミスリルウィップ",
+			"ratio": 92,
+			"level": 1,
+			"page": "P35",
+			"money": 1800
+		},
+		{
+			"id": 181,
+			"name": "チェインカッター",
+			"ratio": 91,
+			"level": 1,
+			"page": "P35",
+			"money": 2700
+		},
+		{
+			"id": 182,
+			"name": "チェインスパイク",
+			"ratio": 90,
+			"level": 1,
+			"page": "P35",
+			"money": 3000
+		},
+		{
+			"id": 183,
+			"name": "ハンマーウィップ",
+			"ratio": 89,
+			"level": 1,
+			"page": "P35",
+			"money": 4000
+		},
+		{
+			"id": 184,
+			"name": "鉄頭の鞭",
+			"ratio": 87,
+			"level": 1,
+			"page": "P35",
+			"money": 5300
+		},
+		{
+			"id": 185,
+			"name": "ミスリルチェインダガー",
+			"ratio": 86,
+			"level": 1,
+			"page": "P35",
+			"money": 6500
+		},
+		{
+			"id": 186,
+			"name": "レイダースウィップ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P35",
+			"money": 7800
+		},
+		{
+			"id": 187,
+			"name": "ミスリルチェインブレイド",
+			"ratio": 83,
+			"level": 1,
+			"page": "P35",
+			"money": 13200
+		},
+		{
+			"id": 188,
+			"name": "チェインホイール",
+			"ratio": 80,
+			"level": 1,
+			"page": "P35",
+			"money": 22000
+		},
+		{
+			"id": 189,
+			"name": "ビーストバインド",
+			"ratio": 80,
+			"level": 1,
+			"page": "P35",
+			"money": 13800
+		},
+		{
+			"id": 190,
+			"name": "ビーストタン",
+			"ratio": 78,
+			"level": 1,
+			"page": "P35",
+			"money": 15000
+		},
+		{
+			"id": 191,
+			"name": "竜髭の鞭",
+			"ratio": 75,
+			"level": 1,
+			"page": "P35",
+			"money": 37900
+		},
+		{
+			"id": 192,
+			"name": "クリムゾンウィップ",
+			"ratio": 70,
+			"level": 1,
+			"page": "P35",
+			"money": 54200
+		},
+		{
+			"id": 193,
+			"name": "モノフィラメントウィップ",
+			"ratio": 69,
+			"level": 1,
+			"page": "P35",
+			"money": 127000
+		},
+		{
+			"id": 194,
+			"name": "スラッシングリボン",
+			"ratio": 67,
+			"level": 1,
+			"page": "P35",
+			"money": 130000
+		},
+		{
+			"id": 195,
+			"name": "ストライプチェインダガー",
+			"ratio": 64,
+			"level": 1,
+			"page": "P35",
+			"money": 196000
+		},
+		{
+			"id": 196,
+			"name": "ダークウィスカー",
+			"ratio": 61,
+			"level": 1,
+			"page": "P35",
+			"money": 220000
+		},
+		{
+			"id": 197,
+			"name": "アームボウ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P37",
+			"money": 500
+		},
+		{
+			"id": 198,
+			"name": "ショートボウ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P37",
+			"money": 200
+		},
+		{
+			"id": 199,
+			"name": "ライトクロスボウ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P37",
+			"money": 450
+		},
+		{
+			"id": 200,
+			"name": "ロングボウ",
+			"ratio": 98,
+			"level": 1,
+			"page": "P37",
+			"money": 300
+		},
+		{
+			"id": 201,
+			"name": "ヘビークロスボウ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P37",
+			"money": 600
+		},
+		{
+			"id": 202,
+			"name": "セルフボウ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P37",
+			"money": 580
+		},
+		{
+			"id": 203,
+			"name": "ファインクロスボウ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P37",
+			"money": 800
+		},
+		{
+			"id": 204,
+			"name": "コンポジットボウ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P37",
+			"money": 980
+		},
+		{
+			"id": 205,
+			"name": "バードキラー",
+			"ratio": 94,
+			"level": 1,
+			"page": "P37",
+			"money": 1100
+		},
+		{
+			"id": 206,
+			"name": "リピーター",
+			"ratio": 94,
+			"level": 1,
+			"page": "P37",
+			"money": 1300
+		},
+		{
+			"id": 207,
+			"name": "ラピッドボウ",
+			"ratio": 93,
+			"level": 1,
+			"page": "P37",
+			"money": 1600
+		},
+		{
+			"id": 208,
+			"name": "アーバレスト",
+			"ratio": 92,
+			"level": 1,
+			"page": "P37",
+			"money": 2500
+		},
+		{
+			"id": 209,
+			"name": "ヘビーコンポジットボウ",
+			"ratio": 91,
+			"level": 1,
+			"page": "P37",
+			"money": 3800
+		},
+		{
+			"id": 210,
+			"name": "グレートボウ",
+			"ratio": 90,
+			"level": 1,
+			"page": "P37",
+			"money": 4800
+		},
+		{
+			"id": 211,
+			"name": "バリスタ",
+			"ratio": 90,
+			"level": 1,
+			"page": "P37",
+			"money": 6000
+		},
+		{
+			"id": 212,
+			"name": "スカウティングボウ",
+			"ratio": 87,
+			"level": 1,
+			"page": "P37",
+			"money": 16000
+		},
+		{
+			"id": 213,
+			"name": "マシンクロスボウ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P37",
+			"money": 12000
+		},
+		{
+			"id": 214,
+			"name": "アセンブリボウ",
+			"ratio": 83,
+			"level": 1,
+			"page": "P37",
+			"money": 20000
+		},
+		{
+			"id": 215,
+			"name": "マテリアルボウ",
+			"ratio": 80,
+			"level": 1,
+			"page": "P37",
+			"money": 25000
+		},
+		{
+			"id": 216,
+			"name": "シーハンター",
+			"ratio": 77,
+			"level": 1,
+			"page": "P37",
+			"money": 37000
+		},
+		{
+			"id": 217,
+			"name": "竜腱の弓",
+			"ratio": 75,
+			"level": 1,
+			"page": "P37",
+			"money": 52000
+		},
+		{
+			"id": 218,
+			"name": "エントボウ",
+			"ratio": 72,
+			"level": 1,
+			"page": "P37",
+			"money": 76500
+		},
+		{
+			"id": 219,
+			"name": "バスタークロスボウ",
+			"ratio": 70,
+			"level": 1,
+			"page": "P37",
+			"money": 101000
+		},
+		{
+			"id": 220,
+			"name": "セントールの弓",
+			"ratio": 67,
+			"level": 1,
+			"page": "P37",
+			"money": 110000
+		},
+		{
+			"id": 221,
+			"name": "ティターンボウ",
+			"ratio": 64,
+			"level": 1,
+			"page": "P37",
+			"money": 121000
+		},
+		{
+			"id": 222,
+			"name": "ウォーターシニュー",
+			"ratio": 61,
+			"level": 1,
+			"page": "P37",
+			"money": 146000
+		},
+		{
+			"id": 223,
+			"name": "バーストルビー",
+			"ratio": 98,
+			"level": 1,
+			"page": "P40",
+			"money": 1000
+		},
+		{
+			"id": 224,
+			"name": "ラウンドシールド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P43",
+			"money": 100
+		},
+		{
+			"id": 225,
+			"name": "カイトシールド",
+			"ratio": 98,
+			"level": 1,
+			"page": "P43",
+			"money": 150
+		},
+		{
+			"id": 226,
+			"name": "ハイクオリティシールド",
+			"ratio": 97,
+			"level": 1,
+			"page": "P43",
+			"money": 400
+		},
+		{
+			"id": 227,
+			"name": "ファインシールド",
+			"ratio": 96,
+			"level": 1,
+			"page": "P43",
+			"money": 650
+		},
+		{
+			"id": 228,
+			"name": "ハードシールド",
+			"ratio": 95,
+			"level": 1,
+			"page": "P43",
+			"money": 1000
+		},
+		{
+			"id": 229,
+			"name": "ホーリーシールド",
+			"ratio": 94,
+			"level": 1,
+			"page": "P43",
+			"money": 1300
+		},
+		{
+			"id": 230,
+			"name": "ソードストッパー",
+			"ratio": 93,
+			"level": 1,
+			"page": "P43",
+			"money": 2000
+		},
+		{
+			"id": 231,
+			"name": "ミスリルシールド",
+			"ratio": 92,
+			"level": 1,
+			"page": "P43",
+			"money": 2900
+		},
+		{
+			"id": 232,
+			"name": "クリスタルシールド",
+			"ratio": 91,
+			"level": 1,
+			"page": "P43",
+			"money": 4300
+		},
+		{
+			"id": 233,
+			"name": "リフレクトシールド",
+			"ratio": 90,
+			"level": 1,
+			"page": "P43",
+			"money": 6800
+		},
+		{
+			"id": 234,
+			"name": "ジルコニアシールド",
+			"ratio": 88,
+			"level": 1,
+			"page": "P43",
+			"money": 9300
+		},
+		{
+			"id": 235,
+			"name": "トゥースシールド",
+			"ratio": 87,
+			"level": 1,
+			"page": "P43",
+			"money": 9600
+		},
+		{
+			"id": 236,
+			"name": "ミラーシールド",
+			"ratio": 85,
+			"level": 1,
+			"page": "P43",
+			"money": 18000
+		},
+		{
+			"id": 237,
+			"name": "ヘビーシールド",
+			"ratio": 83,
+			"level": 1,
+			"page": "P43",
+			"money": 19700
+		},
+		{
+			"id": 238,
+			"name": "黒鷲の盾",
+			"ratio": 80,
+			"level": 1,
+			"page": "P43",
+			"money": 20000
+		},
+		{
+			"id": 239,
+			"name": "フェイムシールド",
+			"ratio": 78,
+			"level": 1,
+			"page": "P43",
+			"money": 30000
+		},
+		{
+			"id": 240,
+			"name": "魔翼の盾",
+			"ratio": 76,
+			"level": 1,
+			"page": "P43",
+			"money": 43600
+		},
+		{
+			"id": 241,
+			"name": "ファングシールド",
+			"ratio": 75,
+			"level": 1,
+			"page": "P43",
+			"money": 40000
+		},
+		{
+			"id": 242,
+			"name": "ワイバーンシールド",
+			"ratio": 73,
+			"level": 1,
+			"page": "P43",
+			"money": 56200
+		},
+		{
+			"id": 243,
+			"name": "クリムゾンシールド",
+			"ratio": 70,
+			"level": 1,
+			"page": "P43",
+			"money": 78000
+		},
+		{
+			"id": 244,
+			"name": "ブルーシールド",
+			"ratio": 69,
+			"level": 1,
+			"page": "P43",
+			"money": 80000
+		},
+		{
+			"id": 245,
+			"name": "ビーストシールド",
+			"ratio": 67,
+			"level": 1,
+			"page": "P43",
+			"money": 90000
+		},
+		{
+			"id": 246,
+			"name": "月の盾",
+			"ratio": 64,
+			"level": 1,
+			"page": "P43",
+			"money": 117000
+		},
+		{
+			"id": 247,
+			"name": "ブレイブシールド",
+			"ratio": 61,
+			"level": 1,
+			"page": "P43",
+			"money": 153000
+		},
+		{
+			"id": 248,
+			"name": "ハット",
+			"ratio": 99,
+			"level": 1,
+			"page": "P45",
+			"money": 50
+		},
+		{
+			"id": 249,
+			"name": "サークレット",
+			"ratio": 99,
+			"level": 1,
+			"page": "P45",
+			"money": 250
+		},
+		{
+			"id": 250,
+			"name": "海賊帽子",
+			"ratio": 99,
+			"level": 1,
+			"page": "P45",
+			"money": 500
+		},
+		{
+			"id": 251,
+			"name": "ヘルム",
+			"ratio": 99,
+			"level": 1,
+			"page": "P45",
+			"money": 100
+		},
+		{
+			"id": 252,
+			"name": "黒頭巾",
+			"ratio": 98,
+			"level": 1,
+			"page": "P45",
+			"money": 200
+		},
+		{
+			"id": 253,
+			"name": "ドミノ",
+			"ratio": 98,
+			"level": 1,
+			"page": "P45",
+			"money": 200
+		},
+		{
+			"id": 254,
+			"name": "ビレッタ",
+			"ratio": 98,
+			"level": 1,
+			"page": "P45",
+			"money": 200
+		},
+		{
+			"id": 255,
+			"name": "メイジハット",
+			"ratio": 98,
+			"level": 1,
+			"page": "P45",
+			"money": 200
+		},
+		{
+			"id": 256,
+			"name": "鉢金",
+			"ratio": 98,
+			"level": 1,
+			"page": "P45",
+			"money": 250
+		},
+		{
+			"id": 257,
+			"name": "クロスヘルム",
+			"ratio": 97,
+			"level": 1,
+			"page": "P45",
+			"money": 300
+		},
+		{
+			"id": 258,
+			"name": "グレートヘルム",
+			"ratio": 96,
+			"level": 1,
+			"page": "P45",
+			"money": 500
+		},
+		{
+			"id": 259,
+			"name": "幸せのサークレット",
+			"ratio": 95,
+			"level": 1,
+			"page": "P45",
+			"money": 2300
+		},
+		{
+			"id": 260,
+			"name": "グリーンベレー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P45",
+			"money": 500
+		},
+		{
+			"id": 261,
+			"name": "マジカルハット",
+			"ratio": 94,
+			"level": 1,
+			"page": "P45",
+			"money": 1200
+		},
+		{
+			"id": 262,
+			"name": "ゴールドヘルム",
+			"ratio": 94,
+			"level": 1,
+			"page": "P45",
+			"money": 1200
+		},
+		{
+			"id": 263,
+			"name": "バトルマスク",
+			"ratio": 93,
+			"level": 1,
+			"page": "P45",
+			"money": 1900
+		},
+		{
+			"id": 264,
+			"name": "月光のサークレット",
+			"ratio": 93,
+			"level": 1,
+			"page": "P45",
+			"money": 2900
+		},
+		{
+			"id": 265,
+			"name": "ガラスの王冠",
+			"ratio": 92,
+			"level": 1,
+			"page": "P45",
+			"money": 3000
+		},
+		{
+			"id": 266,
+			"name": "クリスタルヘルム",
+			"ratio": 92,
+			"level": 1,
+			"page": "P45",
+			"money": 3200
+		},
+		{
+			"id": 267,
+			"name": "ホーリーサークレット",
+			"ratio": 91,
+			"level": 1,
+			"page": "P45",
+			"money": 4700
+		},
+		{
+			"id": 268,
+			"name": "ルーンバンド",
+			"ratio": 90,
+			"level": 1,
+			"page": "P45",
+			"money": 3800
+		},
+		{
+			"id": 269,
+			"name": "ジルコニアヘルム",
+			"ratio": 90,
+			"level": 1,
+			"page": "P45",
+			"money": 5800
+		},
+		{
+			"id": 270,
+			"name": "ファインクロスヘルム",
+			"ratio": 88,
+			"level": 1,
+			"page": "P45",
+			"money": 7500
+		},
+		{
+			"id": 271,
+			"name": "ミスリルサークレット",
+			"ratio": 87,
+			"level": 1,
+			"page": "P45",
+			"money": 7800
+		},
+		{
+			"id": 272,
+			"name": "スターハット",
+			"ratio": 85,
+			"level": 1,
+			"page": "P45",
+			"money": 6800
+		},
+		{
+			"id": 273,
+			"name": "ミスリルヘルム",
+			"ratio": 84,
+			"level": 1,
+			"page": "P45",
+			"money": 9800
+		},
+		{
+			"id": 274,
+			"name": "グレートサークレット",
+			"ratio": 82,
+			"level": 1,
+			"page": "P45",
+			"money": 13000
+		},
+		{
+			"id": 275,
+			"name": "ウィングヘルム",
+			"ratio": 78,
+			"level": 1,
+			"page": "P45",
+			"money": 23500
+		},
+		{
+			"id": 276,
+			"name": "ワイバーンキャップ",
+			"ratio": 73,
+			"level": 1,
+			"page": "P45",
+			"money": 28000
+		},
+		{
+			"id": 277,
+			"name": "クリムゾンヘルム",
+			"ratio": 70,
+			"level": 1,
+			"page": "P45",
+			"money": 48000
+		},
+		{
+			"id": 278,
+			"name": "ブルーヘルム",
+			"ratio": 67,
+			"level": 1,
+			"page": "P45",
+			"money": 57000
+		},
+		{
+			"id": 279,
+			"name": "ムーンキャップ",
+			"ratio": 64,
+			"level": 1,
+			"page": "P45",
+			"money": 58000
+		},
+		{
+			"id": 280,
+			"name": "ブレイブヘルム",
+			"ratio": 61,
+			"level": 1,
+			"page": "P45",
+			"money": 86000
+		},
+		{
+			"id": 281,
+			"name": "ローブ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P47",
+			"money": 30
+		},
+		{
+			"id": 282,
+			"name": "踊り子の衣装",
+			"ratio": 99,
+			"level": 1,
+			"page": "P47",
+			"money": 200
+		},
+		{
+			"id": 283,
+			"name": "クロスアーマー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P47",
+			"money": 50
+		},
+		{
+			"id": 284,
+			"name": "レザージャケット",
+			"ratio": 99,
+			"level": 1,
+			"page": "P47",
+			"money": 100
+		},
+		{
+			"id": 285,
+			"name": "チェインメイル",
+			"ratio": 99,
+			"level": 1,
+			"page": "P47",
+			"money": 450
+		},
+		{
+			"id": 286,
+			"name": "レザーアーマー",
+			"ratio": 98,
+			"level": 1,
+			"page": "P47",
+			"money": 200
+		},
+		{
+			"id": 287,
+			"name": "スタデッドメイル",
+			"ratio": 98,
+			"level": 1,
+			"page": "P47",
+			"money": 300
+		},
+		{
+			"id": 288,
+			"name": "アイアンサイド",
+			"ratio": 98,
+			"level": 1,
+			"page": "P47",
+			"money": 600
+		},
+		{
+			"id": 289,
+			"name": "メイジローブ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P47",
+			"money": 150
+		},
+		{
+			"id": 290,
+			"name": "ダルマティカ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P47",
+			"money": 300
+		},
+		{
+			"id": 291,
+			"name": "黒装束",
+			"ratio": 97,
+			"level": 1,
+			"page": "P47",
+			"money": 600
+		},
+		{
+			"id": 292,
+			"name": "スケイルアーマー",
+			"ratio": 97,
+			"level": 1,
+			"page": "P47",
+			"money": 400
+		},
+		{
+			"id": 293,
+			"name": "シルバーチェイン",
+			"ratio": 97,
+			"level": 1,
+			"page": "P47",
+			"money": 800
+		},
+		{
+			"id": 294,
+			"name": "バッデッドアーマー",
+			"ratio": 96,
+			"level": 1,
+			"page": "P47",
+			"money": 500
+		},
+		{
+			"id": 295,
+			"name": "クィルブイリ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P47",
+			"money": 600
+		},
+		{
+			"id": 296,
+			"name": "胴着",
+			"ratio": 96,
+			"level": 1,
+			"page": "P47",
+			"money": 800
+		},
+		{
+			"id": 297,
+			"name": "ブレストプレート",
+			"ratio": 96,
+			"level": 1,
+			"page": "P47",
+			"money": 980
+		},
+		{
+			"id": 298,
+			"name": "黒のローブ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P47",
+			"money": 9800
+		},
+		{
+			"id": 299,
+			"name": "スニーキングスーツ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P47",
+			"money": 2500
+		},
+		{
+			"id": 300,
+			"name": "アークィバスアーマー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P47",
+			"money": 2100
+		},
+		{
+			"id": 301,
+			"name": "白のローブ",
+			"ratio": 94,
+			"level": 1,
+			"page": "P47",
+			"money": 11800
+		},
+		{
+			"id": 302,
+			"name": "ミスリルクローク",
+			"ratio": 94,
+			"level": 1,
+			"page": "P47",
+			"money": 5200
+		},
+		{
+			"id": 303,
+			"name": "忍衣",
+			"ratio": 94,
+			"level": 1,
+			"page": "P47",
+			"money": 1200
+		},
+		{
+			"id": 304,
+			"name": "ブリガンダイン",
+			"ratio": 94,
+			"level": 1,
+			"page": "P47",
+			"money": 2600
+		},
+		{
+			"id": 305,
+			"name": "プレートメイル",
+			"ratio": 94,
+			"level": 1,
+			"page": "P47",
+			"money": 3200
+		},
+		{
+			"id": 306,
+			"name": "大地のローブ",
+			"ratio": 93,
+			"level": 1,
+			"page": "P47",
+			"money": 2000
+		},
+		{
+			"id": 307,
+			"name": "ミスリルベスト",
+			"ratio": 93,
+			"level": 1,
+			"page": "P47",
+			"money": 2900
+		},
+		{
+			"id": 308,
+			"name": "胴丸",
+			"ratio": 93,
+			"level": 1,
+			"page": "P47",
+			"money": 2400
+		},
+		{
+			"id": 309,
+			"name": "キュイラス",
+			"ratio": 93,
+			"level": 1,
+			"page": "P47",
+			"money": 3600
+		},
+		{
+			"id": 310,
+			"name": "ミスリルレオタード",
+			"ratio": 92,
+			"level": 1,
+			"page": "P47",
+			"money": 4800
+		},
+		{
+			"id": 311,
+			"name": "ホーリーブレスト",
+			"ratio": 92,
+			"level": 1,
+			"page": "P47",
+			"money": 5200
+		},
+		{
+			"id": 312,
+			"name": "ミスリルアーマー",
+			"ratio": 92,
+			"level": 1,
+			"page": "P47",
+			"money": 5800
+		},
+		{
+			"id": 313,
+			"name": "身かわしの服",
+			"ratio": 91,
+			"level": 1,
+			"page": "P47",
+			"money": 5800
+		},
+		{
+			"id": 314,
+			"name": "霊銀の胴丸",
+			"ratio": 91,
+			"level": 1,
+			"page": "P47",
+			"money": 6800
+		},
+		{
+			"id": 315,
+			"name": "クリスタルアーマー",
+			"ratio": 91,
+			"level": 1,
+			"page": "P47",
+			"money": 8000
+		},
+		{
+			"id": 316,
+			"name": "ルーンローブ",
+			"ratio": 90,
+			"level": 1,
+			"page": "P47",
+			"money": 6000
+		},
+		{
+			"id": 317,
+			"name": "ミラージュコート",
+			"ratio": 90,
+			"level": 1,
+			"page": "P47",
+			"money": 7200
+		},
+		{
+			"id": 318,
+			"name": "達人胴着",
+			"ratio": 90,
+			"level": 1,
+			"page": "P47",
+			"money": 7800
+		},
+		{
+			"id": 319,
+			"name": "リフレクトアーマー",
+			"ratio": 90,
+			"level": 1,
+			"page": "P47",
+			"money": 7900
+		},
+		{
+			"id": 320,
+			"name": "ダイアアーマー",
+			"ratio": 90,
+			"level": 1,
+			"page": "P47",
+			"money": 9800
+		},
+		{
+			"id": 321,
+			"name": "ジルコニアアーマー",
+			"ratio": 88,
+			"level": 1,
+			"page": "P48",
+			"money": 10500
+		},
+		{
+			"id": 322,
+			"name": "ホーリーローブ",
+			"ratio": 87,
+			"level": 1,
+			"page": "P48",
+			"money": 11000
+		},
+		{
+			"id": 323,
+			"name": "ソーサラーコート",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 7500
+		},
+		{
+			"id": 324,
+			"name": "ウィザードローブ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 8500
+		},
+		{
+			"id": 325,
+			"name": "プリーストローブ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 9000
+		},
+		{
+			"id": 326,
+			"name": "コンバットレザー",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 12500
+		},
+		{
+			"id": 327,
+			"name": "スカウトスーツ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 13700
+		},
+		{
+			"id": 328,
+			"name": "ガラントアーマー",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 14600
+		},
+		{
+			"id": 329,
+			"name": "バトルスーツ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 16000
+		},
+		{
+			"id": 330,
+			"name": "ホーリープレート",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 17000
+		},
+		{
+			"id": 331,
+			"name": "ヘビープレート",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 15500
+		},
+		{
+			"id": 332,
+			"name": "スタークローク",
+			"ratio": 83,
+			"level": 1,
+			"page": "P48",
+			"money": 12500
+		},
+		{
+			"id": 333,
+			"name": "インビジブルクローク",
+			"ratio": 82,
+			"level": 1,
+			"page": "P48",
+			"money": 22700
+		},
+		{
+			"id": 334,
+			"name": "銀狼の鎧",
+			"ratio": 80,
+			"level": 1,
+			"page": "P48",
+			"money": 29800
+		},
+		{
+			"id": 335,
+			"name": "クリスタルローブ",
+			"ratio": 79,
+			"level": 1,
+			"page": "P48",
+			"money": 31000
+		},
+		{
+			"id": 336,
+			"name": "ミスリルクロス",
+			"ratio": 76,
+			"level": 1,
+			"page": "P48",
+			"money": 49000
+		},
+		{
+			"id": 337,
+			"name": "ブライドメイル",
+			"ratio": 75,
+			"level": 1,
+			"page": "P48",
+			"money": 60000
+		},
+		{
+			"id": 338,
+			"name": "ウィングローブ",
+			"ratio": 74,
+			"level": 1,
+			"page": "P48",
+			"money": 52000
+		},
+		{
+			"id": 339,
+			"name": "ワイバーンスケイル",
+			"ratio": 72,
+			"level": 1,
+			"page": "P48",
+			"money": 97200
+		},
+		{
+			"id": 340,
+			"name": "クリムゾンアーマー",
+			"ratio": 70,
+			"level": 1,
+			"page": "P48",
+			"money": 120000
+		},
+		{
+			"id": 341,
+			"name": "ブルーアーマー",
+			"ratio": 69,
+			"level": 1,
+			"page": "P48",
+			"money": 130000
+		},
+		{
+			"id": 342,
+			"name": "ジェネラルクローク",
+			"ratio": 68,
+			"level": 1,
+			"page": "P48",
+			"money": 68000
+		},
+		{
+			"id": 343,
+			"name": "ヒュドラコート",
+			"ratio": 67,
+			"level": 1,
+			"page": "P48",
+			"money": 90000
+		},
+		{
+			"id": 344,
+			"name": "ムーンローブ",
+			"ratio": 64,
+			"level": 1,
+			"page": "P48",
+			"money": 108000
+		},
+		{
+			"id": 345,
+			"name": "ブレイブアーマー",
+			"ratio": 61,
+			"level": 1,
+			"page": "P48",
+			"money": 150000
+		},
+		{
+			"id": 346,
+			"name": "ライトスーツアーマー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P48",
+			"money": 150
+		},
+		{
+			"id": 347,
+			"name": "スーツアーマー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P48",
+			"money": 250
+		},
+		{
+			"id": 348,
+			"name": "ミスリルスーツ",
+			"ratio": 96,
+			"level": 1,
+			"page": "P48",
+			"money": 2600
+		},
+		{
+			"id": 349,
+			"name": "クリスタルスーツ",
+			"ratio": 93,
+			"level": 1,
+			"page": "P48",
+			"money": 4800
+		},
+		{
+			"id": 350,
+			"name": "ダイアスーツ",
+			"ratio": 90,
+			"level": 1,
+			"page": "P48",
+			"money": 11200
+		},
+		{
+			"id": 351,
+			"name": "ミラースーツ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P48",
+			"money": 24500
+		},
+		{
+			"id": 352,
+			"name": "クリムゾンスーツ",
+			"ratio": 80,
+			"level": 1,
+			"page": "P48",
+			"money": 44800
+		},
+		{
+			"id": 353,
+			"name": "ブルースーツ",
+			"ratio": 78,
+			"level": 1,
+			"page": "P48",
+			"money": 54800
+		},
+		{
+			"id": 354,
+			"name": "ワイバーンスーツ",
+			"ratio": 73,
+			"level": 1,
+			"page": "P48",
+			"money": 74800
+		},
+		{
+			"id": 355,
+			"name": "クレストスーツ",
+			"ratio": 70,
+			"level": 1,
+			"page": "P48",
+			"money": 157000
+		},
+		{
+			"id": 356,
+			"name": "ビーストスーツ",
+			"ratio": 69,
+			"level": 1,
+			"page": "P48",
+			"money": 182000
+		},
+		{
+			"id": 357,
+			"name": "ムーンスーツ",
+			"ratio": 65,
+			"level": 1,
+			"page": "P48",
+			"money": 216000
+		},
+		{
+			"id": 358,
+			"name": "ブレイブスーツ",
+			"ratio": 61,
+			"level": 1,
+			"page": "P48",
+			"money": 258000
+		},
+		{
+			"id": 359,
+			"name": "マント",
+			"ratio": 99,
+			"level": 1,
+			"page": "P51",
+			"money": 100
+		},
+		{
+			"id": 360,
+			"name": "バックラー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P51",
+			"money": 150
+		},
+		{
+			"id": 361,
+			"name": "ポイントアーマー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P51",
+			"money": 200
+		},
+		{
+			"id": 362,
+			"name": "レスキューマント",
+			"ratio": 99,
+			"level": 1,
+			"page": "P51",
+			"money": 300
+		},
+		{
+			"id": 363,
+			"name": "虹色の指輪",
+			"ratio": 99,
+			"level": 1,
+			"page": "P51",
+			"money": 450
+		},
+		{
+			"id": 364,
+			"name": "ジュエルリング",
+			"ratio": 98,
+			"level": 1,
+			"page": "P51",
+			"money": 500
+		},
+		{
+			"id": 365,
+			"name": "トラベラーズマント",
+			"ratio": 98,
+			"level": 1,
+			"page": "P51",
+			"money": 250
+		},
+		{
+			"id": 366,
+			"name": "ガントレット",
+			"ratio": 98,
+			"level": 1,
+			"page": "P51",
+			"money": 300
+		},
+		{
+			"id": 367,
+			"name": "ソリッドブーツ",
+			"ratio": 97,
+			"level": 1,
+			"page": "P51",
+			"money": 500
+		},
+		{
+			"id": 368,
+			"name": "ファインポイントアーマー",
+			"ratio": 97,
+			"level": 1,
+			"page": "P51",
+			"money": 550
+		},
+		{
+			"id": 369,
+			"name": "ファインバックラー",
+			"ratio": 97,
+			"level": 1,
+			"page": "P51",
+			"money": 600
+		},
+		{
+			"id": 370,
+			"name": "サーコート",
+			"ratio": 96,
+			"level": 1,
+			"page": "P51",
+			"money": 900
+		},
+		{
+			"id": 371,
+			"name": "クイックバンド",
+			"ratio": 96,
+			"level": 1,
+			"page": "P51",
+			"money": 1200
+		},
+		{
+			"id": 372,
+			"name": "水晶の指輪",
+			"ratio": 96,
+			"level": 1,
+			"page": "P51",
+			"money": 1200
+		},
+		{
+			"id": 373,
+			"name": "クリスタルバックラー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P51",
+			"money": 1500
+		},
+		{
+			"id": 374,
+			"name": "ミスリルポイントアーマー",
+			"ratio": 95,
+			"level": 1,
+			"page": "P51",
+			"money": 1800
+		},
+		{
+			"id": 375,
+			"name": "竜鱗の首飾り",
+			"ratio": 94,
+			"level": 1,
+			"page": "P51",
+			"money": 2200
+		},
+		{
+			"id": 376,
+			"name": "ローグマント",
+			"ratio": 94,
+			"level": 1,
+			"page": "P51",
+			"money": 2600
+		},
+		{
+			"id": 377,
+			"name": "ミスリルガントレット",
+			"ratio": 93,
+			"level": 1,
+			"page": "P51",
+			"money": 3200
+		},
+		{
+			"id": 378,
+			"name": "ダイアポイントアーマー",
+			"ratio": 93,
+			"level": 1,
+			"page": "P51",
+			"money": 3800
+		},
+		{
+			"id": 379,
+			"name": "ミスリルの腕輪",
+			"ratio": 92,
+			"level": 1,
+			"page": "P51",
+			"money": 3200
+		},
+		{
+			"id": 380,
+			"name": "マジックマント",
+			"ratio": 92,
+			"level": 1,
+			"page": "P51",
+			"money": 4100
+		},
+		{
+			"id": 381,
+			"name": "ダイアガントレット",
+			"ratio": 91,
+			"level": 1,
+			"page": "P51",
+			"money": 5500
+		},
+		{
+			"id": 382,
+			"name": "ウィングブーツ",
+			"ratio": 91,
+			"level": 1,
+			"page": "P51",
+			"money": 5100
+		},
+		{
+			"id": 383,
+			"name": "ミスリルマント",
+			"ratio": 90,
+			"level": 1,
+			"page": "P51",
+			"money": 6200
+		},
+		{
+			"id": 384,
+			"name": "ルーンリング",
+			"ratio": 90,
+			"level": 1,
+			"page": "P51",
+			"money": 6500
+		},
+		{
+			"id": 385,
+			"name": "ルーンポイントアーマー",
+			"ratio": 90,
+			"level": 1,
+			"page": "P51",
+			"money": 7000
+		},
+		{
+			"id": 386,
+			"name": "リフレクトリング",
+			"ratio": 88,
+			"level": 1,
+			"page": "P51",
+			"money": 11000
+		},
+		{
+			"id": 387,
+			"name": "ホーリーバックラー",
+			"ratio": 87,
+			"level": 1,
+			"page": "P51",
+			"money": 12800
+		},
+		{
+			"id": 388,
+			"name": "ワイバーンマント",
+			"ratio": 85,
+			"level": 1,
+			"page": "P51",
+			"money": 10000
+		},
+		{
+			"id": 389,
+			"name": "スターポイントアーマー",
+			"ratio": 84,
+			"level": 1,
+			"page": "P51",
+			"money": 14000
+		},
+		{
+			"id": 390,
+			"name": "ウィングバックラー",
+			"ratio": 83,
+			"level": 1,
+			"page": "P51",
+			"money": 15000
+		},
+		{
+			"id": 391,
+			"name": "ブラックリング",
+			"ratio": 79,
+			"level": 1,
+			"page": "P51",
+			"money": 25000
+		},
+		{
+			"id": 392,
+			"name": "フェザーバックラー",
+			"ratio": 77,
+			"level": 1,
+			"page": "P51",
+			"money": 38000
+		},
+		{
+			"id": 393,
+			"name": "ブライドガントレット",
+			"ratio": 74,
+			"level": 1,
+			"page": "P51",
+			"money": 45000
+		},
+		{
+			"id": 394,
+			"name": "クリムゾンコート",
+			"ratio": 70,
+			"level": 1,
+			"page": "P51",
+			"money": 94800
+		},
+		{
+			"id": 395,
+			"name": "ブルーコート",
+			"ratio": 69,
+			"level": 1,
+			"page": "P51",
+			"money": 108000
+		},
+		{
+			"id": 396,
+			"name": "ビーストバックラー",
+			"ratio": 67,
+			"level": 1,
+			"page": "P51",
+			"money": 114000
+		},
+		{
+			"id": 397,
+			"name": "ジェネラルマント",
+			"ratio": 66,
+			"level": 1,
+			"page": "P51",
+			"money": 140000
+		},
+		{
+			"id": 398,
+			"name": "ムーンブーツ",
+			"ratio": 64,
+			"level": 1,
+			"page": "P51",
+			"money": 162000
+		},
+		{
+			"id": 399,
+			"name": "ブレイブガントレット",
+			"ratio": 61,
+			"level": 1,
+			"page": "P51",
+			"money": 200000
+		},
+		{
+			"id": 400,
+			"name": "楽器",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 50
+		},
+		{
+			"id": 401,
+			"name": "シーブズツール",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 50
+		},
+		{
+			"id": 402,
+			"name": "研究道具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 150
+		},
+		{
+			"id": 403,
+			"name": "聖印",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 150
+		},
+		{
+			"id": 404,
+			"name": "グリモア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 200
+		},
+		{
+			"id": 405,
+			"name": "手入れ道具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 200
+		},
+		{
+			"id": 406,
+			"name": "知識の書",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 250
+		},
+		{
+			"id": 407,
+			"name": "長い棒",
+			"ratio": 99,
+			"level": 1,
+			"page": "P53",
+			"money": 5
+		},
+		{
+			"id": 408,
+			"name": "秘伝書",
+			"ratio": 98,
+			"level": 1,
+			"page": "P53",
+			"money": 300
+		},
+		{
+			"id": 409,
+			"name": "勝守",
+			"ratio": 98,
+			"level": 1,
+			"page": "P53",
+			"money": 500
+		},
+		{
+			"id": 410,
+			"name": "忍具",
+			"ratio": 98,
+			"level": 1,
+			"page": "P53",
+			"money": 500
+		},
+		{
+			"id": 411,
+			"name": "見渡す目",
+			"ratio": 98,
+			"level": 1,
+			"page": "P53",
+			"money": 1500
+		},
+		{
+			"id": 412,
+			"name": "金剛の鞘",
+			"ratio": 97,
+			"level": 1,
+			"page": "P53",
+			"money": 1000
+		},
+		{
+			"id": 413,
+			"name": "見破る目",
+			"ratio": 97,
+			"level": 1,
+			"page": "P53",
+			"money": 2000
+		},
+		{
+			"id": 414,
+			"name": "栽培セット",
+			"ratio": 97,
+			"level": 1,
+			"page": "P53",
+			"money": 5000
+		},
+		{
+			"id": 415,
+			"name": "タリスマン",
+			"ratio": 96,
+			"level": 1,
+			"page": "P53",
+			"money": 1500
+		},
+		{
+			"id": 416,
+			"name": "暗視ゴーグル",
+			"ratio": 96,
+			"level": 1,
+			"page": "P53",
+			"money": 3000
+		},
+		{
+			"id": 417,
+			"name": "高級研究道具",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 600
+		},
+		{
+			"id": 418,
+			"name": "茶帯",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 1000
+		},
+		{
+			"id": 419,
+			"name": "高級忍具",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 1500
+		},
+		{
+			"id": 420,
+			"name": "古代竜の牙",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 2000
+		},
+		{
+			"id": 421,
+			"name": "高位聖印",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 700
+		},
+		{
+			"id": 422,
+			"name": "セブンダブ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 800
+		},
+		{
+			"id": 423,
+			"name": "高級楽器",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 900
+		},
+		{
+			"id": 424,
+			"name": "奥義書",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 1000
+		},
+		{
+			"id": 425,
+			"name": "修羅の鞘",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 1500
+		},
+		{
+			"id": 426,
+			"name": "バスターグリップ",
+			"ratio": 95,
+			"level": 1,
+			"page": "P53",
+			"money": 3200
+		},
+		{
+			"id": 427,
+			"name": "迅雷の鞘",
+			"ratio": 93,
+			"level": 1,
+			"page": "P53",
+			"money": 3000
+		},
+		{
+			"id": 428,
+			"name": "羅刹の鞘",
+			"ratio": 91,
+			"level": 1,
+			"page": "P53",
+			"money": 5000
+		},
+		{
+			"id": 429,
+			"name": "黒帯",
+			"ratio": 90,
+			"level": 1,
+			"page": "P54",
+			"money": 18000
+		},
+		{
+			"id": 430,
+			"name": "究極忍具",
+			"ratio": 90,
+			"level": 1,
+			"page": "P54",
+			"money": 21000
+		},
+		{
+			"id": 431,
+			"name": "勝守・弐式",
+			"ratio": 90,
+			"level": 1,
+			"page": "P54",
+			"money": 30000
+		},
+		{
+			"id": 432,
+			"name": "バトルグリップ",
+			"ratio": 89,
+			"level": 1,
+			"page": "P54",
+			"money": 8000
+		},
+		{
+			"id": 433,
+			"name": "剣聖の鞘",
+			"ratio": 80,
+			"level": 1,
+			"page": "P54",
+			"money": 82000
+		},
+		{
+			"id": 434,
+			"name": "禁断の書",
+			"ratio": 80,
+			"level": 1,
+			"page": "P54",
+			"money": 92000
+		},
+		{
+			"id": 435,
+			"name": "武神の帯",
+			"ratio": 80,
+			"level": 1,
+			"page": "P54",
+			"money": 98000
+		},
+		{
+			"id": 436,
+			"name": "キンググリップ",
+			"ratio": 80,
+			"level": 1,
+			"page": "P54",
+			"money": 68000
+		},
+		{
+			"id": 437,
+			"name": "グレートグリップ",
+			"ratio": 80,
+			"level": 1,
+			"page": "P54",
+			"money": 73000
+		},
+		{
+			"id": 438,
+			"name": "超級忍具",
+			"ratio": 75,
+			"level": 1,
+			"page": "P54",
+			"money": 80000
+		},
+		{
+			"id": 439,
+			"name": "ウルトラグリップ",
+			"ratio": 70,
+			"level": 1,
+			"page": "P54",
+			"money": 120000
+		},
+		{
+			"id": 440,
+			"name": "くさび",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 1
+		},
+		{
+			"id": 441,
+			"name": "チョーク",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 1
+		},
+		{
+			"id": 442,
+			"name": "火打ち石・火打ち金",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 1
+		},
+		{
+			"id": 443,
+			"name": "筆記用具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 1
+		},
+		{
+			"id": 444,
+			"name": "ロープ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 3
+		},
+		{
+			"id": 445,
+			"name": "釣り竿",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 5
+		},
+		{
+			"id": 446,
+			"name": "枕",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 5
+		},
+		{
+			"id": 447,
+			"name": "猟犬",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 5
+		},
+		{
+			"id": 448,
+			"name": "ランタン",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 5
+		},
+		{
+			"id": 449,
+			"name": "囮餌",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 50
+		},
+		{
+			"id": 450,
+			"name": "ディスカバリーガイド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 50
+		},
+		{
+			"id": 451,
+			"name": "望遠鏡",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 100
+		},
+		{
+			"id": 452,
+			"name": "羅針盤",
+			"ratio": 99,
+			"level": 1,
+			"page": "P59",
+			"money": 300
+		},
+		{
+			"id": 453,
+			"name": "滑剤瓶",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 400
+		},
+		{
+			"id": 454,
+			"name": "強酸瓶",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 600
+		},
+		{
+			"id": 455,
+			"name": "粘着瓶",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 600
+		},
+		{
+			"id": 456,
+			"name": "結界紋",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 400
+		},
+		{
+			"id": 457,
+			"name": "転送石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 750
+		},
+		{
+			"id": 458,
+			"name": "死者払いの水",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 1500
+		},
+		{
+			"id": 459,
+			"name": "大地の砥石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2000
+		},
+		{
+			"id": 460,
+			"name": "流水の砥石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2000
+		},
+		{
+			"id": 461,
+			"name": "炎熱の砥石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2000
+		},
+		{
+			"id": 462,
+			"name": "烈風の砥石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2000
+		},
+		{
+			"id": 463,
+			"name": "戦士の環",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 464,
+			"name": "祝福の花",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 465,
+			"name": "虹の輝き",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 466,
+			"name": "漆黒の星",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 467,
+			"name": "強力火薬",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 468,
+			"name": "イリュージョンカード",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 469,
+			"name": "クイックホルダー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 470,
+			"name": "剣鬼の鍔",
+			"ratio": 99,
+			"level": 1,
+			"page": "P60",
+			"money": 2500
+		},
+		{
+			"id": 471,
+			"name": "動物王の骨",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 472,
+			"name": "月光の種",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 473,
+			"name": "太陽のリボン",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 474,
+			"name": "蝶の巻物",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 475,
+			"name": "狂戦士の鎖",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 476,
+			"name": "拡声の石",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 477,
+			"name": "黄金蛇のメダル",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 478,
+			"name": "風読みの羽根",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 479,
+			"name": "霊銀鍛冶道具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 2500
+		},
+		{
+			"id": 480,
+			"name": "野営道具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 3
+		},
+		{
+			"id": 481,
+			"name": "小型ハンマー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 20
+		},
+		{
+			"id": 482,
+			"name": "キャップライト",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 30
+		},
+		{
+			"id": 483,
+			"name": "調理用具",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 100
+		},
+		{
+			"id": 484,
+			"name": "鍵と錠前",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 10
+		},
+		{
+			"id": 485,
+			"name": "冒険者セット",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 10
+		},
+		{
+			"id": 486,
+			"name": "折りたたみ梯子",
+			"ratio": 99,
+			"level": 1,
+			"page": "P61",
+			"money": 500
+		},
+		{
+			"id": 487,
+			"name": "マジカルキー",
+			"ratio": 98,
+			"level": 1,
+			"page": "P61",
+			"money": 100
+		},
+		{
+			"id": 488,
+			"name": "ドレスブック",
+			"ratio": 97,
+			"level": 1,
+			"page": "P62",
+			"money": 1000
+		},
+		{
+			"id": 489,
+			"name": "制空結界印",
+			"ratio": 90,
+			"level": 1,
+			"page": "P62",
+			"money": 300017800
+		},
+		{
+			"id": 490,
+			"name": "戦王の武器飾り",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 491,
+			"name": "騎馬鎧",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 492,
+			"name": "聖戦の誓い",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 493,
+			"name": "真紅の杯",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 494,
+			"name": "契約の宝石",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 495,
+			"name": "図解ソーサラーの秘術",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 496,
+			"name": "ジェミニカード",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 17800
+		},
+		{
+			"id": 497,
+			"name": "幸運の鍵",
+			"ratio": 89,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 498,
+			"name": "従者の手綱",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 499,
+			"name": "古代竜の心",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 500,
+			"name": "魔導剣増幅器",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 501,
+			"name": "心身の章",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 502,
+			"name": "名誉の勲章",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 503,
+			"name": "風の蹄鉄",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 504,
+			"name": "プロフェットストラップ",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 505,
+			"name": "ルーンブースター",
+			"ratio": 85,
+			"level": 1,
+			"page": "P62",
+			"money": 25000
+		},
+		{
+			"id": 506,
+			"name": "毒消し",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 10
+		},
+		{
+			"id": 507,
+			"name": "HPポーション",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 30
+		},
+		{
+			"id": 508,
+			"name": "MPポーション",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 50
+		},
+		{
+			"id": 509,
+			"name": "ハイHPポーション",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 200
+		},
+		{
+			"id": 510,
+			"name": "ハイMPポーション",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 300
+		},
+		{
+			"id": 511,
+			"name": "万能薬",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 300
+		},
+		{
+			"id": 512,
+			"name": "アンチポーション",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 400
+		},
+		{
+			"id": 513,
+			"name": "蘇生薬",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 5000
+		},
+		{
+			"id": 514,
+			"name": "火酒",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 300
+		},
+		{
+			"id": 515,
+			"name": "風のエキス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 500
+		},
+		{
+			"id": 516,
+			"name": "強心丹",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 300
+		},
+		{
+			"id": 517,
+			"name": "聖水",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 500
+		},
+		{
+			"id": 518,
+			"name": "退魔軟膏",
+			"ratio": 98,
+			"level": 1,
+			"page": "P65",
+			"money": 900
+		},
+		{
+			"id": 519,
+			"name": "EXHPポーション",
+			"ratio": 98,
+			"level": 1,
+			"page": "P65",
+			"money": 2000
+		},
+		{
+			"id": 520,
+			"name": "EXMPポーション",
+			"ratio": 98,
+			"level": 1,
+			"page": "P65",
+			"money": 4000
+		},
+		{
+			"id": 521,
+			"name": "霊水",
+			"ratio": 97,
+			"level": 1,
+			"page": "P65",
+			"money": 500
+		},
+		{
+			"id": 522,
+			"name": "魔道酒",
+			"ratio": 97,
+			"level": 1,
+			"page": "P65",
+			"money": 1000
+		},
+		{
+			"id": 523,
+			"name": "デスポーション",
+			"ratio": 97,
+			"level": 1,
+			"page": "P65",
+			"money": 1000
+		},
+		{
+			"id": 524,
+			"name": "グレートHPポーション",
+			"ratio": 90,
+			"level": 1,
+			"page": "P65",
+			"money": 10000
+		},
+		{
+			"id": 525,
+			"name": "グレートMPポーション",
+			"ratio": 90,
+			"level": 1,
+			"page": "P65",
+			"money": 15000
+		},
+		{
+			"id": 526,
+			"name": "にく",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 20
+		},
+		{
+			"id": 527,
+			"name": "野菜",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 20
+		},
+		{
+			"id": 528,
+			"name": "果実",
+			"ratio": 99,
+			"level": 1,
+			"page": "P65",
+			"money": 30
+		},
+		{
+			"id": 529,
+			"name": "アクセサリー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 3
+		},
+		{
+			"id": 530,
+			"name": "上等な衣服",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 4
+		},
+		{
+			"id": 531,
+			"name": "仮面",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 5
+		},
+		{
+			"id": 532,
+			"name": "香水",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 10
+		},
+		{
+			"id": 533,
+			"name": "ドレス・礼服",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 15
+		},
+		{
+			"id": 534,
+			"name": "ルビー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 200
+		},
+		{
+			"id": 535,
+			"name": "エメラルド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 200
+		},
+		{
+			"id": 536,
+			"name": "サファイア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 200
+		},
+		{
+			"id": 537,
+			"name": "トパーズ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 200
+		},
+		{
+			"id": 538,
+			"name": "ダイアモンド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 200
+		},
+		{
+			"id": 539,
+			"name": "高級ルビー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 2000
+		},
+		{
+			"id": 540,
+			"name": "高級エメラルド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 2000
+		},
+		{
+			"id": 541,
+			"name": "高級サファイア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 2000
+		},
+		{
+			"id": 542,
+			"name": "高級トパーズ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 2000
+		},
+		{
+			"id": 543,
+			"name": "高級ダイアモンド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 4000
+		},
+		{
+			"id": 544,
+			"name": "最高級ルビー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 20000
+		},
+		{
+			"id": 545,
+			"name": "最高級エメラルド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 20000
+		},
+		{
+			"id": 546,
+			"name": "最高級サファイア",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 20000
+		},
+		{
+			"id": 547,
+			"name": "最高級トパーズ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 20000
+		},
+		{
+			"id": 548,
+			"name": "最高級ダイアモンド",
+			"ratio": 99,
+			"level": 1,
+			"page": "P66",
+			"money": 30000
+		},
+		{
+			"id": 549,
+			"name": "ベルトポーチ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 15
+		},
+		{
+			"id": 550,
+			"name": "小道具入れ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 20
+		},
+		{
+			"id": 551,
+			"name": "手提げバッグ",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 25
+		},
+		{
+			"id": 552,
+			"name": "バックパック",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 30
+		},
+		{
+			"id": 553,
+			"name": "ランチボックス",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 50
+		},
+		{
+			"id": 554,
+			"name": "矢筒",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 100
+		},
+		{
+			"id": 555,
+			"name": "ポーションホルダー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 150
+		},
+		{
+			"id": 556,
+			"name": "ウェポンケース",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 200
+		},
+		{
+			"id": 557,
+			"name": "異次元バック",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 2000
+		},
+		{
+			"id": 558,
+			"name": "クイックケース",
+			"ratio": 99,
+			"level": 1,
+			"page": "P67",
+			"money": 58000
+		},
+		{
+			"id": 559,
+			"name": "ガンベルト",
+			"ratio": 90,
+			"level": 1,
+			"page": "P67",
+			"money": 1000
+		},
+		{
+			"id": 560,
+			"name": "シースベルト",
+			"ratio": 90,
+			"level": 1,
+			"page": "P67",
+			"money": 1000
+		},
+		{
+			"id": 561,
+			"name": "ファインアロー",
+			"ratio": 99,
+			"level": 1,
+			"page": "P68",
+			"money": 50
+		},
+		{
+			"id": 562,
+			"name": "錬魔弾",
+			"ratio": 97,
+			"level": 1,
+			"page": "P68",
+			"money": 150
+		},
+		{
+			"id": 563,
+			"name": "祝福の矢",
+			"ratio": 97,
+			"level": 1,
+			"page": "P68",
+			"money": 200
+		},
+		{
+			"id": 564,
+			"name": "ミスリルの矢",
+			"ratio": 96,
+			"level": 1,
+			"page": "P68",
+			"money": 800
+		},
+		{
+			"id": 565,
+			"name": "強化弾",
+			"ratio": 95,
+			"level": 1,
+			"page": "P68",
+			"money": 700
+		},
+		{
+			"id": 566,
+			"name": "エレメンタルアロー",
+			"ratio": 90,
+			"level": 1,
+			"page": "P68",
+			"money": 1000
+		},
+		{
+			"id": 567,
+			"name": "轟魔弾",
+			"ratio": 90,
+			"level": 1,
+			"page": "P68",
+			"money": 7000
+		},
+		{
+			"id": 568,
+			"name": "キャリバーブースター",
+			"ratio": 85,
+			"level": 1,
+			"page": "P68",
+			"money": 3000
+		},
+		{
+			"id": 569,
+			"name": "猛毒の矢",
+			"ratio": 85,
+			"level": 1,
+			"page": "P68",
+			"money": 5000
+		},
+		{
+			"id": 570,
+			"name": "延引弾",
+			"ratio": 85,
+			"level": 1,
+			"page": "P68",
+			"money": 8000
+		},
+		{
+			"id": 571,
+			"name": "摩滅の矢",
+			"ratio": 79,
+			"level": 1,
+			"page": "P68",
+			"money": 10000
+		},
+		{
+			"id": 572,
+			"name": "爆魔弾",
+			"ratio": 79,
+			"level": 1,
+			"page": "P68",
+			"money": 2000
+		},
+		{
+			"id": 573,
+			"name": "失効弾",
+			"ratio": 75,
+			"level": 1,
+			"page": "P68",
+			"money": 22000
+		},
+		{
+			"id": 574,
+			"name": "ハイエレメンタルアロー",
+			"ratio": 75,
+			"level": 1,
+			"page": "P68",
+			"money": 30000
+		},
+		{
+			"id": 575,
+			"name": "粉砕弾",
+			"ratio": 72,
+			"level": 1,
+			"page": "P68",
+			"money": 25000
+		},
+		{
+			"id": 576,
+			"name": "ルーンの矢",
+			"ratio": 67,
+			"level": 1,
+			"page": "P68",
+			"money": 40000
+		},
+		{
+			"id": 577,
+			"name": "消魔弾",
+			"ratio": 64,
+			"level": 1,
+			"page": "P68",
+			"money": 50000
+		},
+		{
+			"id": 578,
+			"name": "天罰の矢",
+			"ratio": 61,
+			"level": 1,
+			"page": "P68",
+			"money": 55000
+		}
+	]
 }
